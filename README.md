@@ -20,3 +20,4 @@ Course materials for [General Assembly's Data Science course](https://generalass
 * [Python for Informatics](http://www.pythonlearn.com/book.php): A very beginner-oriented book, with associated [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
 * [Beginner workshop code](code/00_python_beginner_workshop.py): Useful for review and reference.
 * [Python 2.7x Reference Guide](https://github.com/justmarkham/python-reference/blob/master/reference.py): Kevin's beginner-oriented guide that demonstrates a ton of Python concepts through short, well-commented examples.
+* [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
