@@ -6,11 +6,15 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 
 ### Before the Course Begins
-* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
+* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
+    * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
 * Once you receive an email invitation from Slack, join our "DAT7 team" and add your photo.
-* Attend one or both of our Python workshops, depending on your current skill level: [beginner](https://generalassemb.ly/education/intro-to-python-programming/washington-dc/12239) (Saturday 5/16 10am-2pm) and [intermediate](https://generalassemb.ly/education/python-for-data-science-intermediate/washington-dc/12242) (Saturday 5/30 10am-2pm).
 * Practice Python using the resources below.
+* Attend one or both of our Python workshops, depending on your current skill level: [beginner](https://generalassemb.ly/education/intro-to-python-programming/washington-dc/12239) (Saturday 5/16 10am-2pm) and [intermediate](https://generalassemb.ly/education/python-for-data-science-intermediate/washington-dc/12242) (Saturday 5/30 10am-2pm).
+* We would like to check the setup of your laptop before the course begins.
+    * You can have your laptop checked after the intermediate Python workshop on Saturday 5/30 (2pm-3pm), on Sunday 5/31 (time and place TBD), or before class on Monday 6/1 (5pm-6:30pm).
+    * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself. In this case, please post a message in the "setupchecklist" channel in Slack noting whether or not you had any issues.
 
 ### Python Resources
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
