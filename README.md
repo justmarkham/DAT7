@@ -25,3 +25,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 * [Beginner workshop code](code/00_python_beginner_workshop.py): Useful for review and reference.
 * [Python 2.7x Reference Guide](https://github.com/justmarkham/python-reference/blob/master/reference.py): Kevin's beginner-oriented guide that demonstrates a ton of Python concepts through short, well-commented examples.
 * [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
+
+### Submission Forms
+* [Feedback form](http://bit.ly/dat7feedback)
+* [Homework and project submissions](http://bit.ly/dat7homework)
