@@ -13,7 +13,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 * Practice Python using the resources below.
 * Attend one or both of our Python workshops, depending on your current skill level: [beginner](https://generalassemb.ly/education/intro-to-python-programming/washington-dc/12239) (Saturday 5/16 10am-2pm) and [intermediate](https://generalassemb.ly/education/python-for-data-science-intermediate/washington-dc/12242) (Saturday 5/30 10am-2pm).
 * We would like to check the setup of your laptop before the course begins.
-    * You can have your laptop checked after the intermediate Python workshop on Saturday 5/30 (2pm-3pm), on Sunday 5/31 (time and place TBD), or before class on Monday 6/1 (5pm-6:30pm).
+    * You can have your laptop checked after the intermediate Python workshop on Saturday 5/30 (2pm-3pm), at the [15th & K Starbucks](http://www.yelp.com/biz/starbucks-washington-15) on Sunday 5/31 (11am-1pm), or before class on Monday 6/1 (5pm-6:30pm).
     * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself. In this case, please post a message in the "setupchecklist" channel in Slack noting whether or not you had any issues.
 
 ### Python Resources
