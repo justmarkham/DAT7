@@ -9,7 +9,7 @@ Please post a message in the "setupchecklist" channel in Slack once you have wal
 
 ### Git
 * Open a command line application (Git Bash on Windows, or Terminal on Mac).
-* Type `git config --global user.name "FirstName LastName"` (including the quotes)
+* Type `git config --global user.name "YourFirstName YourLastName"` (including the quotes)
 * Type `git config --global user.email "youremail@domain.com"` (use the email address associated with your GitHub account)
 * Type `git clone https://github.com/justmarkham/DAT7.git`
     * This will create a folder called "DAT7" in the working directory of your local computer, and will copy the repository into that folder. (If you don't know what the working directory is, type `pwd`.)
