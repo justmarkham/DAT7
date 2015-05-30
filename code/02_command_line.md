@@ -21,8 +21,8 @@ For Linux and Mac users, you can get view the **man**ual for a command by typing
 
 ### Tips
 
-* If there are spaces in file or folder names, use a "\" to "escape" the space characters, or just put the entire file path in quotes.
-* After typing the first few letters of a file or folder name, you can hit Tab to auto-complete the name. (This often auto-escapes spaces for you.)
+* If there are spaces in file or directory names, use a "\" to "escape" the space characters, or just put the entire file path in quotes.
+* After typing the first few letters of a file or directory name, you can hit Tab to auto-complete the name. (This often auto-escapes spaces for you.)
 * Use the up and down arrow keys to navigate previously entered commands.
 
 ### File paths
@@ -37,10 +37,10 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * **p**rints **w**orking **d**irectory (the directory you are currently in)
 
 ##### `ls`
-* **l**i**s**ts files and folders in your working directory
+* **l**i**s**ts files and subdirectories in your working directory
 * `ls -a` lists **a**ll files, including hidden files
 * `ls -l` lists the files in a **l**ong format with extra information (permissions, size, last modified date, etc.)
-* `ls *` also lists the contents of folders in your working directory
+* `ls *` also lists the contents of subdirectories in your working directory
 * `ls <path>` lists files in a specific directory (without changing your working directory)
 
 ##### `clear`

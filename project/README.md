@@ -13,7 +13,7 @@
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/army_draft_presentation.pdf) by Chandler McCann
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/media_draft_presentation.pdf) by Nathan Danielsen
 * **May 18:** Draft paper
-* **May 25:** Peer review complete
+* **May 25:** Peer review
     * [Peer review guidelines](peer_review.md)
 * **June 3:** Final project presentation and paper
     * [Final presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/bus_presentation.pdf) by Austin Brown
@@ -27,7 +27,7 @@ Address a data-related problem in your professional field or a field you're pass
 
 Here's a collection of [past projects](https://github.com/justmarkham/DAT-project-examples) from GA Data Science students that may help to stimulate your thinking. You're welcome to use [public data](public_data.md) or private data, though with private data, you'll have to be careful about what you release. Competing in a [Kaggle competition](http://www.kaggle.com/) is also a project option, in which case the data will be provided for you.
 
-## Project Milestones
+## Milestones
 
 ### March 30: Discuss your project ideas
 
@@ -55,7 +55,7 @@ You'll be giving a short presentation to the class about the work you have done 
 
 ### May 18: Draft paper due
 
-A draft of your project paper is due, along with the data, well-commented code, and data visualizations. It should be written with a technical audience in mind. Your paper should include the following components:
+A draft of your **project paper** is due, along with the **data, well-commented code, and visualizations**. It should be written with a technical audience in mind. Your paper should include the following components:
 
 * Problem statement and hypothesis
 * Description of your data set and how it was obtained

@@ -50,5 +50,5 @@ Course materials for [General Assembly's Data Science course](https://generalass
 **Resources:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
-* Quora has a [data science topic FAQ](https://www.quora.com/What-is-the-Data-Science-topic-FAQ) with lots of interesting Q&A.
+* Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 * Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
