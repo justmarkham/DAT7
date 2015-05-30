@@ -4,6 +4,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructor:** [Kevin Markham](http://www.dataschool.io/about/)
 
+### [Course Project](project/README.md)
 
 ### Before the Course Begins
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
@@ -29,3 +30,25 @@ Course materials for [General Assembly's Data Science course](https://generalass
 ### Submission Forms
 * [Feedback form](http://bit.ly/dat7feedback)
 * [Homework and project submissions](http://bit.ly/dat7homework)
+
+-----
+
+### Class 1: Introduction to Data Science
+* Welcome from General Assembly staff
+* Course overview ([slides](slides/01_course_overview.pdf))
+* Introduction to data science ([slides](slides/01_intro_to_data_science.pdf))
+* Discuss the [course project](project/README.md)
+* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Brief tour of Slack
+* Wrap up: course schedule, office hours, submission forms
+
+**Homework:**
+* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/02_command_line.md).
+* Watch videos 1 through 8 (21 minutes) of [Introduction to Git and GitHub](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD).
+* If your laptop has any setup issues, please work with us to resolve them by Wednesday.
+
+**Resources:**
+* For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
+* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* Quora has a [data science topic FAQ](https://www.quora.com/What-is-the-Data-Science-topic-FAQ) with lots of interesting Q&A.
+* Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
