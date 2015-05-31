@@ -71,6 +71,8 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * `cp <filename> <new path>` **c**o**p**ies a file from its current location to `<new path>`, leaving the original file unchanged
 * `cp <filename> <new filename>` copies a file without changing its location
 
+<!--
+
 ### Exercise One
 * Open your command line interface.
 * Navigate to your Desktop, and confirm you are there:
@@ -85,3 +87,5 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * Rename `plot1.png` as `scatterplot.png`, and rename `plot2.png` as `histogram.png`.
 * Delete `extra.csv` from `data`.
 * Once again, print out all of the contents of `project` to confirm you have the correct structure.
+
+-->
