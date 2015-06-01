@@ -10,14 +10,14 @@ Monday | Wednesday
 --- | ---
 6/1: Introduction to Data Science | 6/3: Command Line and Version Control
 6/8: Data Reading and Cleaning | 6/10: Exploratory Data Analysis
-6/15: Visualization and Machine Learning | 6/17: APIs and Web Scraping<br>**Project Discussion Deadline**
-6/22: K-Nearest Neighbors<br>**Project Question Due** | 6/24: Model Evaluation Part 1
+6/15: Visualization and<br>Machine Learning | 6/17: APIs and Web Scraping<br>**Project Discussion Deadline**
+6/22: K-Nearest Neighbors<br>**Project Question and Dataset Due** | 6/24: Model Evaluation Part 1
 6/29: Linear Regression | 7/1: Reproducibility and Regular Expressions
 7/6: Logistic Regression | 7/8: **First Project Presentation**
 7/13: Model Evaluation Part 2 | 7/15: Kaggle Competition
 7/20: Decision Trees | 7/22: Naive Bayes and Text Data
 7/27: Natural Language Processing<br>**Draft Paper Due** | 7/29: Ensembling
-8/3: Clustering<br>**Peer Review Due** | 8/5: Course Review
+8/3: Clustering, **Peer Review Due** | 8/5: Course Review
 8/10: **Final Project Presentation** | 8/12: **Final Project Presentation**
 
 ### Before the Course Begins

@@ -1,6 +1,6 @@
 # DAT Course Project
 
-## Due Dates (will be updated) and Links
+## Due Dates and Links
 
 * **June 17:** Discuss project ideas with instructional team
     * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
