@@ -2,20 +2,20 @@
 
 ## Due Dates (will be updated) and Links
 
-* **March 30:** Discuss project ideas with instructional team
+* **June 17:** Discuss project ideas with instructional team
     * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
     * [Public data sources](public_data.md)
     * [Kaggle competitions](http://www.kaggle.com/)
-* **April 6:** Project question and dataset
+* **June 22:** Project question and dataset
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md) by Jason Knobloch
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md) by Alex Lee
-* **April 27:** First project presentation
+* **July 8:** First project presentation
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/army_draft_presentation.pdf) by Chandler McCann
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/media_draft_presentation.pdf) by Nathan Danielsen
-* **May 18:** Draft paper
-* **May 25:** Peer review
+* **July 27:** Draft paper
+* **August 3:** Peer review
     * [Peer review guidelines](peer_review.md)
-* **June 3:** Final project presentation and paper
+* **August 10/12:** Final project presentation and paper
     * [Final presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/bus_presentation.pdf) by Austin Brown
     * [Final paper](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/nba_paper.pdf) by Kerry Jones
 
@@ -29,11 +29,11 @@ Here's a collection of [past projects](https://github.com/justmarkham/DAT-projec
 
 ## Milestones
 
-### March 30: Discuss your project ideas
+### June 17: Discuss your project ideas
 
-By March 30, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
+By June 17, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
 
-### April 6: Project question and dataset
+### June 22: Project question and dataset
 
 Create a GitHub repository for your project. It should include a **short write-up** that answers these questions:
 
@@ -42,7 +42,7 @@ Create a GitHub repository for your project. It should include a **short write-u
 * What do you know about the data so far?
 * Why did you choose this topic?
 
-### April 27: First project presentation
+### July 8: First project presentation
 
 You'll be giving a short presentation to the class about the work you have done so far, as well as your plans for the project going forward. Your presentation should use slides (or a similar format). Your **slides, code, data, and visualizations** should be included in your GitHub repository. Here are some questions that you should address in your presentation:
 
@@ -53,7 +53,7 @@ You'll be giving a short presentation to the class about the work you have done 
 * Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
 * How might you use modeling to answer your question?
 
-### May 18: Draft paper due
+### July 27: Draft paper due
 
 A draft of your **project paper** is due, along with the **data, well-commented code, and visualizations**. It should be written with a technical audience in mind. Your paper should include the following components:
 
@@ -69,11 +69,11 @@ A draft of your **project paper** is due, along with the **data, well-commented 
 
 Your peers and instructional team will be providing feedback. However, the paper should stand "on its own", and should not depend upon the reader remembering your first presentation. The easier your paper is to follow, the more useful feedback you will receive! As well, if your reviewers can actually run your code on the provided data, they will be able to give you better feedback on your code.
 
-### May 25: Peer review due
+### August 3: Peer review due
 
 You will provide project feedback to two of your peers, according to the [peer review guidelines](peer_review.md).
 
-### June 3: Final project presentation (and final paper due)
+### August 10/12: Final project presentation (and final paper due)
 
 Your project repository on GitHub should contain the following:
 
