@@ -20,6 +20,7 @@ Monday | Wednesday
 8/3: Clustering, **Peer Review Due** | 8/5: Course Review
 8/10: **Final Project Presentation** | 8/12: **Final Project Presentation**
 
+<!--
 ### Before the Course Begins
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
@@ -30,6 +31,7 @@ Monday | Wednesday
 * We would like to check the setup of your laptop before the course begins.
     * You can have your laptop checked after the intermediate Python workshop on Saturday 5/30 (2pm-3pm), at the [15th & K Starbucks](http://www.yelp.com/biz/starbucks-washington-15) on Sunday 5/31 (11am-1pm), or before class on Monday 6/1 (5pm-6:30pm).
     * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself. In this case, please post a message in the "setupchecklist" channel in Slack noting whether or not you had any issues.
+-->
 
 ### Python Resources
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
