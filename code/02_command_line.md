@@ -73,8 +73,6 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * `cp <filename> <new filename>` copies a file without changing its location
 
 
-<!--
-
 ### Exercise One
 * Open your command line interface.
 * Navigate to your Desktop, and confirm you are there:
@@ -91,6 +89,8 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * Make a copy of `draft_paper.md` called `final_paper.md`.
 * Once again, print out all of the contents of `project` to confirm you have the correct structure.
 
+
+<!--
 
 ### Intermediate commands
 
