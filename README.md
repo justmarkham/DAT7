@@ -75,11 +75,11 @@ Monday | Wednesday
 ### Class 2: Command Line and Version Control
 * Command line exercise ([code](code/02_command_line.md))
 * Git and GitHub ([slides](slides/02_git_github.pdf))
-* Intermediate and advanced command line
+* Intermediate command line
 * Wrap up: Course schedule, office hours
 
 **Homework:**
-* Using only the command line, discover something "interesting" about the Chipotle data. Create a Markdown document that includes your (brief) findings and the code you used. Add this file to a GitHub repo that you'll use for all of your coursework, and submit a link to your repo using the homework submission form.
+* Complete the homework exercise listed in the [command line introduction](code/02_command_line.md#homework-exercise). Create a Markdown document that includes your answers and the code you used to arrive at those answers. Add this file to a GitHub repo that you'll use for all of your coursework, and submit a link to your repo using the homework submission form.
 * Review the code from the [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Python workshops. If you don't feel comfortable with any of the content (up through the "dictionaries" section), you should spend some time this weekend practicing Python. Here are my recommended resources:
     * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
     * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".

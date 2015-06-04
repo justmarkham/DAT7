@@ -41,7 +41,7 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * **l**i**s**ts files and subdirectories in your working directory
 * `ls -a` lists **a**ll files, including hidden files
 * `ls -l` lists the files in a **l**ong format with extra information (permissions, size, last modified date, etc.)
-* `ls *` also lists the contents of subdirectories in your working directory
+* `ls *` also lists the contents of subdirectories (one level deep) in your working directory
 * `ls <path>` lists files in a specific directory (without changing your working directory)
 
 ##### `clear`
@@ -73,7 +73,7 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * `cp <filename> <new filename>` copies a file without changing its location
 
 
-### Exercise One
+### Class exercise
 * Open your command line interface.
 * Navigate to your Desktop, and confirm you are there:
     * Print your working directory (it should end with `Desktop`).
@@ -113,11 +113,11 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * A "word" is defined as any set of characters delimited by a space.
 
 ##### `find`
-* `find <path> -name <name>` will search the specified path (and its subdirectories) and **find** files and directories with a given `<name>`
-* If you don't include a `<path>`, your working directory (and its subdirectories) will be searched.
+* `find <path> -name <name>` will recursively search the specified path (and its subdirectories) and **find** files and directories with a given `<name>`
+    * Use `.` for the `<path>` to refer to the working directory.
 * For the `<name>`, you can search for an exact match, or use wildcard characters to search for a partial match:
-    * `*` specifies any number of any characters, such as `find -name *.py` or `find -name *data*.*`
-    * `?` specifies one character, such as `find -name ??_*.*`
+    * `*` specifies any number of any characters, such as `find . -name *.py` or `find . -name *data*.*`
+    * `?` specifies one character, such as `find . -name ??_*.*`
 
 ##### `grep`
 * `grep <pattern> <filename>` searches a file for a **r**egular **e**xpression **p**attern and prints the matching lines
@@ -142,17 +142,17 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * This will create the file if it does not yet exist.
 
 
-### Exercise Two
-* Using `chipotle.tsv`:
-    * Look at the head and the tail. How many orders do there appear to be?
-    * How many lines are in the file?
-    * Which burrito is more popular, steak or chicken?
-    * Do chicken burritos more often have black beans or pinto beans?
-* Return a list of all CSV or TSV files in the DAT7 repo (using a single command).
-* Count the number of occurrences of the word 'dictionary' (regardless of case) across all files in the DAT7 repo.
+### Homework exercise
+1. Using `chipotle.tsv` in the `data` subdirectory:
+    1. Look at the head and the tail, and think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+    2. How many orders do there appear to be?
+    3. How many lines are in the file?
+    4. Which burrito is more popular, steak or chicken?
+    5. Do chicken burritos more often have black beans or pinto beans?
+2. Make a list of all of the CSV or TSV files in the DAT7 repo (using a single command). Think about how wildcard characters can help you with this task.
+3. Count the number of occurrences of the word 'dictionary' (regardless of case) across all files in the DAT7 repo.
+4. **Optional:** Use the the command line to discover something "interesting" about the Chipotle data. The advanced commands below may be helpful to you!
 
-
-<!--
 
 ### Advanced commands
 
@@ -167,5 +167,3 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * `uniq <filename>` discards all but one of the successive identical lines (thus it only keeps **uniq**ue lines)
 * `uniq -c <filename>` also records the **c**ount of the number of occurrences
 * Because lines must be successive to be counted as identical, you will usually use `sort` before `uniq`.
-
--->
