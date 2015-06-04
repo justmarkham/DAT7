@@ -142,8 +142,6 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * This will create the file if it does not yet exist.
 
 
-<!--
-
 ### Exercise Two
 * Using `chipotle.tsv`:
     * Look at the head and the tail. How many orders do there appear to be?
@@ -153,6 +151,8 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * Return a list of all CSV or TSV files in the DAT7 repo (using a single command).
 * Count the number of occurrences of the word 'dictionary' (regardless of case) across all files in the DAT7 repo.
 
+
+<!--
 
 ### Advanced commands
 
