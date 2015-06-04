@@ -90,8 +90,6 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * Once again, print out all of the contents of `project` to confirm you have the correct structure.
 
 
-<!--
-
 ### Intermediate commands
 
 ##### `head`
@@ -143,6 +141,8 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 * `<command> >> <filename>` takes the output of `<command>` and appends it to `<filename>`
 * This will create the file if it does not yet exist.
 
+
+<!--
 
 ### Exercise Two
 * Using `chipotle.tsv`:
