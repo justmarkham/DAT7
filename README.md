@@ -22,7 +22,9 @@ Monday | Wednesday
 
 <!--
 ### Before the Course Begins
-* Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
+* Install [Git](http://git-scm.com/downloads).
+* Create an account on the [GitHub](https://github.com/) website.
+    * It is not necessary to download "GitHub for Windows" or "GitHub for Mac"
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
     * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
 * Once you receive an email invitation from Slack, join our "DAT7 team" and add your photo.

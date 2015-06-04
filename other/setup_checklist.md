@@ -8,7 +8,9 @@ Please post a message in the "setupchecklist" channel in Slack once you have wal
 * Log into your GitHub account, and "star" the DAT7 repository (the one you are looking at right now) by clicking the Star button in the upper right corner of the screen.
 
 ### Git
-* Open a command line application (Git Bash on Windows, or Terminal on Mac).
+* Open a command line application:
+    * For Windows, we recommend [Git Bash](http://git-scm.com/download/win) instead of Git Shell (which uses Powershell).
+    * For Mac, you will probably be using Terminal, or another command line tool of your choice.
 * Type `git config --global user.name "YourFirstName YourLastName"` (including the quotes)
 * Type `git config --global user.email "youremail@domain.com"` (use the email address associated with your GitHub account)
 * Type `git clone https://github.com/justmarkham/DAT7.git`
@@ -27,4 +29,5 @@ Please post a message in the "setupchecklist" channel in Slack once you have wal
     * Type `exit()` to exit the interpreter. You can now close the command line application.
 * Open Spyder (if you can't find Spyder, look for the Anaconda Launcher application)
     * In the console (probably on the right side of the screen), type `import textblob`
+        * If this worked from the interpreter but not in Spyder, and you're using a Mac, try opening the PYTHONPATH manager and adding a path to where textblob was installed (such as `/Users/yourname/anaconda/lib/python2.7/site-packages/`). Then, restart Spyder.
     * Type `import pandas`
