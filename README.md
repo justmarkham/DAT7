@@ -95,3 +95,24 @@ Monday | Wednesday
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
 * If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
 * If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
+
+-----
+
+### Class 3: Data Reading and Cleaning
+* Git and GitHub assorted tips ([slides](slides/02_git_github.pdf))
+* Review command line homework ([code](code/02_command_line.md#homework-exercise))
+* Python:
+    * Spyder interface
+    * Review of list comprehensions
+    * Lesson on file reading with airline safety data (code, [data](data/airlines.csv), [article](http://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/))
+    * Data cleaning exercise
+    * Walkthrough of homework with Chipotle order data (code, [data](data/chipotle.tsv), [article](http://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html))
+* Course project:
+    * [Example projects](https://github.com/justmarkham/DAT-project-examples)
+    * Project question exercise
+
+**Homework:**
+* Complete the homework assignment with the Chipotle data, and add a commented Python script to your GitHub repo. If you are unable to complete a part, try writing some pseudocode instead! You have until Monday to complete this assignment.
+
+**Resources:**
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
