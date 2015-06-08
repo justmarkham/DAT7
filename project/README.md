@@ -8,6 +8,7 @@
     * [Kaggle competitions](http://www.kaggle.com/)
 * **June 22:** Project question and dataset
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md) by Jason Knobloch
+    * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jennifer/project_description.md) by Jennifer Lambert
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md) by Alex Lee
 * **July 8:** First project presentation
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/army_draft_presentation.pdf) by Chandler McCann
