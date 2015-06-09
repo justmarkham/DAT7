@@ -58,10 +58,22 @@ Expected output: [0, 1, 0, ...]
 Expected output: {'Aer Lingus': 0.07, 'Aeroflot': 2.73, ...}
 '''
 
+# Part 1
+incidents = [round((int(row[2]) + int(row[5])) / float(30), 2) for row in data]
 
+# Parts 2 and 3
+airlines = []
+starred = []
+for row in data:
+    if row[0][-1] == '*':
+        starred.append(1)
+        airlines.append(row[0][:-1])
+    else:
+        starred.append(0)
+        airlines.append(row[0])
 
-
-
+# Part 4
+airline_incidents = dict(zip(airlines, incidents))
 
 
 '''
