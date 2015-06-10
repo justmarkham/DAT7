@@ -109,9 +109,6 @@ Monday | Wednesday
     * Lesson on file reading with airline safety data ([code](code/03_file_reading.py), [data](data/airlines.csv), [article](http://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/))
     * Data cleaning exercise
     * Walkthrough of homework with Chipotle order data ([code](code/03_python_homework_chipotle.py), [data](data/chipotle.tsv), [article](http://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html))
-* Course project:
-    * [Example projects](https://github.com/justmarkham/DAT-project-examples)
-    * Project question exercise
 
 **Homework:**
 * Complete the [homework assignment](code/03_python_homework_chipotle.py) with the [Chipotle data](data/chipotle.tsv), and add a commented Python script to your GitHub repo. If you are unable to complete a part, try writing some pseudocode instead! You have until Monday to complete this assignment.
@@ -122,14 +119,14 @@ Monday | Wednesday
 -----
 
 ### Class 4: Exploratory Data Analysis
-* Pandas (code):
+* Pandas ([code](code/04_pandas.py)):
     * MovieLens 100k movie ratings ([data](data/u.user), [data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
     * Alcohol consumption by country ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
     * Reports of UFO sightings ([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
 
 **Homework:**
-* Complete the homework assignment with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is also due on Monday.
 * Scan through the rest of today's Python script, to familiarize yourself with additional Pandas functionality.
+* Complete the [homework assignment](code/04_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is also due on Monday.
 * Your deadline for discussing your project ideas with an instructor is next Wednesday.
 * Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
 
@@ -142,15 +139,20 @@ Monday | Wednesday
 <!--
 ### Class 5: Visualization and Machine Learning
 * Review Python homework and Pandas homework
-* Introduction to the IPython Notebook
-* Visualization
+* Visualization with Pandas and Matplotlib (code)
 * Human learning exercise:
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
     * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
 * Introduction to machine learning (slides)
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/
+))
 
-**Homework:**
-* Visualization
+**Visualization Resources:**
+* Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
+* For more on Pandas plotting, read this [notebook](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb) or the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
+* To learn how to customize your plots further, browse through this [notebook on matplotlib](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) or this [similar notebook](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb).
+* To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shinyapps.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
+* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
 
 **Machine Learning Resources:*
 * For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the associated [notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
@@ -160,6 +162,10 @@ Monday | Wednesday
 * [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project) is a really fun application of machine learning.
 * Look up the [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), and then read about the [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) in detail.
 
-**Other Resources:**
-* If you would like to learn the IPython Notebook, the official [Notebook tutorials](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb) are useful.
+### Class 6: APIs and Web Scraping
+* Course project:
+    * [Example projects](https://github.com/justmarkham/DAT-project-examples)
+    * Project question exercise
+* APIs
+* Web scraping
 -->
