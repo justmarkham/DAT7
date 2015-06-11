@@ -64,16 +64,29 @@ EXERCISE ONE
 '''
 
 # read drinks.csv into a DataFrame called 'drinks'
+drinks = pd.read_table('drinks.csv', sep=',')
+drinks = pd.read_csv('drinks.csv')              # assumes separator is comma
 
 # print the head and the tail
+drinks.head()
+drinks.tail()
 
 # examine the default index, data types, and shape
+drinks.index
+drinks.dtypes
+drinks.shape
 
 # print the 'beer_servings' Series
+drinks['beer_servings']
+drinks.beer_servings
 
 # calculate the average 'beer_servings' for the entire dataset
+drinks.describe()                   # summarize all numeric columns
+drinks.beer_servings.describe()     # summarize only the 'beer_servings' Series
+drinks.beer_servings.mean()         # only calculate the mean
 
 # count the number of occurrences of each 'continent' value and see if it looks correct
+drinks.continent.value_counts()
 
 '''
 Filtering and Sorting
@@ -102,12 +115,16 @@ EXERCISE TWO
 '''
 
 # filter DataFrame to only include European countries
+drinks[drinks.continent=='EU']
 
 # filter DataFrame to only include European countries with wine_servings > 300
+drinks[(drinks.continent=='EU') & (drinks.wine_servings > 300)]
 
 # calculate the average 'beer_servings' for all of Europe
+drinks[drinks.continent=='EU'].beer_servings.mean()
 
 # determine which 10 countries have the highest total_litres_of_pure_alcohol
+drinks.sort('total_litres_of_pure_alcohol').tail(10)
 
 '''
 Renaming, Adding, and Removing Columns

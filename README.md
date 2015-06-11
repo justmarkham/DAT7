@@ -10,7 +10,7 @@ Monday | Wednesday
 --- | ---
 6/1: Introduction to Data Science | 6/3: Command Line and Version Control
 6/8: Data Reading and Cleaning | 6/10: Exploratory Data Analysis
-6/15: Visualization and<br>Machine Learning | 6/17: APIs and Web Scraping<br>**Project Discussion Deadline**
+6/15: Visualization | 6/17: Machine Learning and APIs<br>**Project Discussion Deadline**
 6/22: K-Nearest Neighbors<br>**Project Question and Dataset Due** | 6/24: Model Evaluation Part 1
 6/29: Linear Regression | 7/1: Reproducibility and Regular Expressions
 7/6: Logistic Regression | 7/8: **First Project Presentation**
@@ -125,27 +125,28 @@ Monday | Wednesday
     * Reports of UFO sightings ([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
 
 **Homework:**
-* Scan through the rest of today's Python script, to familiarize yourself with additional Pandas functionality.
-* Complete the [homework assignment](code/04_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is also due on Monday.
+* Complete "Exercise Three" from today's Pandas script. **Note:** You do not need to submit this assignment.
 * Your deadline for discussing your project ideas with an instructor is next Wednesday.
 * Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
 
 **Resources:**
 * Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) is an excellent way to locate a function even if you don't know its exact name.
-* To learn more Pandas, review this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
-* Here are examples of different types of [joins in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/#joining), for when you need to figure out how to merge two DataFrames.
 * [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
 
-<!--
-### Class 5: Visualization and Machine Learning
-* Review Python homework and Pandas homework
+-----
+
+### Class 5: Visualization
+* Review Python homework with the Chipotle data
+* Part 2 of Exploratory Data Analysis with Pandas ([code](code/04_pandas.py))
 * Visualization with Pandas and Matplotlib (code)
-* Human learning exercise:
-    * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
-    * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
-* Introduction to machine learning (slides)
-* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/
-))
+
+**Homework:**
+* Complete the [homework assignment](code/05_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is due next Monday. **Note:** A visualization component will be added to this assignment!
+
+**Pandas Resources:**
+* To learn more Pandas, review this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
+* If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) by the creator of Pandas.
+* Here are examples of different types of [joins in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/#joining), for when you need to figure out how to merge two DataFrames.
 
 **Visualization Resources:**
 * Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
@@ -154,6 +155,18 @@ Monday | Wednesday
 * To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shinyapps.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
 * This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
 
+<!--
+### Class 6: Machine Learning and APIs
+* Human learning exercise:
+    * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
+    * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
+* Introduction to machine learning (slides)
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
+* Course project:
+    * [Example projects](https://github.com/justmarkham/DAT-project-examples)
+    * Project question exercise
+* APIs
+
 **Machine Learning Resources:*
 * For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the associated [notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
 * For a more in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
@@ -161,11 +174,4 @@ Monday | Wednesday
 * For a preview of some of the machine learning content we will cover during the course, read Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
 * [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project) is a really fun application of machine learning.
 * Look up the [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), and then read about the [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) in detail.
-
-### Class 6: APIs and Web Scraping
-* Course project:
-    * [Example projects](https://github.com/justmarkham/DAT-project-examples)
-    * Project question exercise
-* APIs
-* Web scraping
 -->
