@@ -140,7 +140,7 @@ Monday | Wednesday
 * Visualization with Pandas and Matplotlib ([code](code/05_pandas_visualization.py))
 
 **Homework:**
-* Complete the [homework assignment](code/05_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is due next Monday. **Note:** A visualization component will be added to this assignment!
+* Complete the [homework assignment](code/05_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is due next Monday.
 
 **Pandas Resources:**
 * To learn more Pandas, review this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](http://nbviewer.ipython.org/github/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).

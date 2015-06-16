@@ -73,7 +73,7 @@ drinks.continent.value_counts().plot(kind='bar')
 # calculate the average beer/spirit/wine amounts for each continent
 drinks.groupby('continent').mean().drop('liters', axis=1)
 
-# multiple side-by-side bar plots
+# side-by-side bar plots
 drinks.groupby('continent').mean().drop('liters', axis=1).plot(kind='bar')
 
 # stacked bar plots
