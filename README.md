@@ -102,7 +102,7 @@ Monday | Wednesday
 
 ### Class 3: Data Reading and Cleaning
 * Git and GitHub assorted tips ([slides](slides/02_git_github.pdf))
-* Review command line homework
+* Review command line homework ([solution](code/02_command_line.md#homework-solution))
 * Python:
     * Spyder interface
     * Review of list comprehensions
@@ -136,7 +136,6 @@ Monday | Wednesday
 -----
 
 ### Class 5: Visualization
-* Review Python homework with the Chipotle data
 * Part 2 of Exploratory Data Analysis with Pandas ([code](code/04_pandas.py))
 * Visualization with Pandas and Matplotlib ([code](code/05_pandas_visualization.py))
 
@@ -155,8 +154,11 @@ Monday | Wednesday
 * To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shinyapps.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
 * This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
 
-<!--
+-----
+
 ### Class 6: Machine Learning and APIs
+* Review Python homework with the Chipotle data ([solution](code/03_python_homework_chipotle.py), [detailed explanation](http://nbviewer.ipython.org/github/Alexjmsherman/DAT7/blob/master/Python%20Homework%20with%20Chipotle%20data%20answers.ipynb))
+* Grouped box plots and grouped histograms ([code](code/05_pandas_visualization.py))
 * Human learning exercise:
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
     * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
@@ -174,4 +176,3 @@ Monday | Wednesday
 * For a preview of some of the machine learning content we will cover during the course, read Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
 * [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project) is a really fun application of machine learning.
 * Look up the [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), and then read about the [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) in detail.
--->
