@@ -138,7 +138,7 @@ Monday | Wednesday
 ### Class 5: Visualization
 * Review Python homework with the Chipotle data
 * Part 2 of Exploratory Data Analysis with Pandas ([code](code/04_pandas.py))
-* Visualization with Pandas and Matplotlib (code)
+* Visualization with Pandas and Matplotlib ([code](code/05_pandas_visualization.py))
 
 **Homework:**
 * Complete the [homework assignment](code/05_pandas_homework_imdb.py) with the [IMDB data](data/imdb_1000.csv), and add a Python script to your GitHub repo. This assignment is due next Monday. **Note:** A visualization component will be added to this assignment!

@@ -187,20 +187,30 @@ EXERCISE THREE
 '''
 
 # read ufo.csv into a DataFrame called 'ufo'
+ufo = pd.read_csv('ufo.csv')
 
 # check the shape of the DataFrame
+ufo.shape
 
 # what are the three most common colors reported?
+ufo['Colors Reported'].value_counts()[:3]
+ufo['Colors Reported'].value_counts().head(3)
 
 # rename any columns with spaces so that they don't contain spaces
+ufo.rename(columns={'Colors Reported':'Colors_Reported', 'Shape Reported':'Shape_Reported'}, inplace=True)
+ufo.columns = [col.replace(' ', '_') for col in ufo.columns]
 
 # for reports in VA, what's the most common city?
+ufo[ufo.State=='VA'].City.value_counts()[:1]
 
 # print a DataFrame containing only reports from Arlington, VA
+ufo[(ufo.City=='Arlington') & (ufo.State=='VA')]
 
 # count the number of missing values in each column
+ufo.isnull().sum()
 
 # how many rows remain if you drop all rows with any missing values?
+ufo.dropna().shape[0]
 
 '''
 Split-Apply-Combine
@@ -232,12 +242,16 @@ EXERCISE FOUR
 '''
 
 # for each occupation in 'users', count the number of occurrences
+users.occupation.value_counts()
 
 # for each occupation, calculate the mean age
+users.groupby('occupation').age.mean()
 
 # for each occupation, calculate the minimum and maximum ages
+users.groupby('occupation').age.agg(['min', 'max'])
 
 # for each combination of occupation and gender, calculate the mean age
+users.groupby(['occupation', 'gender']).age.mean()
 
 '''
 Selecting Multiple Columns and Filtering Rows
