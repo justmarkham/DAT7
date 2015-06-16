@@ -154,6 +154,17 @@ An **absolute file path** specifies the complete path to a file, ignoring your c
 4. **Optional:** Use the the command line to discover something "interesting" about the Chipotle data. The advanced commands below may be helpful to you!
 
 
+### Homework solution
+1. Using `chipotle.tsv` in the `data` subdirectory:
+    1. `order_id` is the unique identifier for each order. `quantity` is the number purchased of a particular item. `item_name` is the primary name for the item being purchased. `choice_description` is list of modifiers for that item. `price` is the price for that entire line (taking `quantity` into account). A given order consists of one or more rows, depending upon the number of unique items being purchased in that order.
+    2. 1834 orders (since 1834 is the highest order_id number)
+    3. 4623 lines: `wc -l chipotle.tsv`
+    4. chicken is more popular: compare `grep -i 'chicken burrito' chipotle.tsv | wc -l` with `grep -i 'steak burrito' chipotle.tsv | wc -l`
+    5. black beans are more popular: compare `grep -i 'chicken burrito' chipotle.tsv | grep -i 'black beans' | wc -l` with `grep -i 'chicken burrito' chipotle.tsv | grep -i 'pinto beans' | wc -l`
+2. `find . -name *.?sv` will find CSV or TSV files.
+3. `grep -ir 'dictionary' . | wc -l` will count the number of lines in which the word 'dictionary' appears, which is a good approximation of the number of occurrences.
+
+
 ### Advanced commands
 
 ##### `cut`
