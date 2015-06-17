@@ -2,15 +2,15 @@
 
 ## Due Dates and Links
 
-* **June 17:** Discuss project ideas with instructional team
+* **June 22:** Discuss project ideas with instructional team
     * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
     * [Public data sources](public_data.md)
     * [Kaggle competitions](http://www.kaggle.com/)
-* **June 22:** Project question and dataset
+* **June 24:** Project question and dataset
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md) by Jason Knobloch
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jennifer/project_description.md) by Jennifer Lambert
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/alexlee/project_question.md) by Alex Lee
-* **July 8:** First project presentation
+* **July 13:** First project presentation
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/army_draft_presentation.pdf) by Chandler McCann
     * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/media_draft_presentation.pdf) by Nathan Danielsen
 * **July 27:** Draft paper
@@ -30,11 +30,11 @@ Here's a collection of [past projects](https://github.com/justmarkham/DAT-projec
 
 ## Milestones
 
-### June 17: Discuss your project ideas
+### June 22: Discuss your project ideas
 
-By June 17, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
+By June 22, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
 
-### June 22: Project question and dataset
+### June 24: Project question and dataset
 
 Create a GitHub repository for your project. It should include a **short write-up** that answers these questions:
 
@@ -43,7 +43,7 @@ Create a GitHub repository for your project. It should include a **short write-u
 * What do you know about the data so far?
 * Why did you choose this topic?
 
-### July 8: First project presentation
+### July 13: First project presentation
 
 You'll be giving a short presentation to the class about the work you have done so far, as well as your plans for the project going forward. Your presentation should use slides (or a similar format). Your **slides, code, data, and visualizations** should be included in your GitHub repository. Here are some questions that you should address in your presentation:
 
