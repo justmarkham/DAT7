@@ -161,7 +161,7 @@ Monday | Wednesday
 * Human learning exercise:
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
     * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
-* Introduction to machine learning (slides)
+* Introduction to machine learning ([slides](slides/06_machine_learning.pdf))
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Course project:
     * [Example projects](https://github.com/justmarkham/DAT-project-examples)
@@ -169,7 +169,7 @@ Monday | Wednesday
 
 **Homework:**
 * Your deadline for discussing your project ideas with an instructor is Monday, and your project question and dataset is due Wednesday.
-* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and this loosely related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 
 **Resources:**
 * For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the associated [notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
