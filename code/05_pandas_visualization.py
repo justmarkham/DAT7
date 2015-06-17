@@ -9,11 +9,6 @@ import matplotlib.pyplot as plt
 drink_cols = ['country', 'beer', 'spirit', 'wine', 'liters', 'continent']
 drinks = pd.read_csv('drinks.csv', header=0, names=drink_cols, na_filter=False)
 
-# read in the ufo data
-ufo = pd.read_csv('ufo.csv')
-ufo['Time'] = pd.to_datetime(ufo.Time)
-ufo['Year'] = ufo.Time.dt.year
-
 '''
 Histogram: show the distribution of a numerical variable
 '''
@@ -93,20 +88,35 @@ drinks.beer.plot(kind='box')
 drinks.drop('liters', axis=1).plot(kind='box')
 
 '''
+Line Plot: show the trend of a numerical variable over time
+'''
+
+# read in the ufo data
+ufo = pd.read_csv('ufo.csv')
+ufo['Time'] = pd.to_datetime(ufo.Time)
+ufo['Year'] = ufo.Time.dt.year
+
+# count the number of ufo reports each year (and sort by year)
+ufo.Year.value_counts().sort_index()
+
+# compare with line plot
+ufo.Year.value_counts().sort_index().plot()
+
+# don't use a line plot when there is no logical ordering
+drinks.continent.value_counts().plot()
+
+'''
 Grouped Box Plots and Grouped Histograms: show one plot for each group
 '''
 
 # reminder: box plot of beer servings
 drinks.beer.plot(kind='box')
 
+# reminder: histogram of beer servings
+drinks.beer.plot(kind='hist')
+
 # box plot of beer servings grouped by continent
 drinks.boxplot(column='beer', by='continent')
-
-# box plot of all numeric columns grouped by continent
-drinks.boxplot(by='continent')
-
-# histogram of beer servings
-drinks.beer.plot(kind='hist')
 
 # histogram of beer servings grouped by continent
 drinks.beer.hist(by=drinks.continent)
@@ -120,18 +130,8 @@ drinks.beer.hist(by=drinks.continent, sharex=True, sharey=True)
 # change the layout
 drinks.beer.hist(by=drinks.continent, layout=(2, 3))
 
-'''
-Line Plot: show the trend of a numerical variable over time
-'''
-
-# count the number of ufo reports each year (and sort by year)
-ufo.Year.value_counts().sort_index()
-
-# compare with line plot
-ufo.Year.value_counts().sort_index().plot()
-
-# don't use a line plot when there is no logical ordering
-drinks.continent.value_counts().plot()
+# box plot of all numeric columns grouped by continent
+drinks.boxplot(by='continent')
 
 '''
 Assorted Functionality
