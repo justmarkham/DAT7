@@ -11,7 +11,7 @@ Monday | Wednesday
 6/1: Introduction to Data Science | 6/3: Command Line and Version Control
 6/8: Data Reading and Cleaning | 6/10: Exploratory Data Analysis
 6/15: Visualization | 6/17: Machine Learning
-6/22: APIs and Web Scraping<br>**Project Discussion Deadline** | 6/24: K-Nearest Neighbors<br>**Project Question and Dataset Due**
+6/22: Getting Data<br>**Project Discussion Deadline** | 6/24: K-Nearest Neighbors<br>**Project Question and Dataset Due**
 6/29: Model Evaluation Part 1 | 7/1: Linear Regression
 7/6: Logistic Regression | 7/8: Model Evaluation Part 2
 7/13: **First Project Presentation** | 7/15: Naive Bayes and Text Data
@@ -169,6 +169,7 @@ Monday | Wednesday
 
 **Homework:**
 * Your deadline for discussing your project ideas with an instructor is Monday, and your project question and dataset is due Wednesday.
+* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and this loosely related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 
 **Resources:**
 * For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the associated [notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
@@ -177,3 +178,30 @@ Monday | Wednesday
 * For a preview of some of the machine learning content we will cover during the course, read Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
 * [The Emoji Translation Project](https://www.kickstarter.com/projects/fred/the-emoji-translation-project) is a really fun application of machine learning.
 * Look up the [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/), and then read about the [67 distinct segments](http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm) in detail.
+
+<!--
+
+### Class 7: Getting Data
+* APIs
+    * [Open Movie Database API](http://www.omdbapi.com/)
+* Web scraping
+* Reproducibility
+    * Discuss assigned readings
+    * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
+
+**Homework:**
+* If you are not using Anaconda, install the [IPython Notebook](http://ipython.org/install.html) and [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`.
+* If you are using Anaconda, you already have the IPython Notebook, and you should install Seaborn by running `conda install seaborn` at the command line.
+
+**API Resources:**
+* [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
+* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
+* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+
+**Web Scraping Resources:**
+
+**Reproducibility Resources:**
+* [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) discusses the importance of writing functions and proper code comments (among other skills), which are highly useful for creating a reproducible analysis.
+* [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) explains how a reproducible analysis demonstrates all of the work that goes into proper data science.
+
+-->
