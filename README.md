@@ -161,8 +161,8 @@ Monday | Wednesday
 * Human learning exercise:
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) hosted by the UCI Machine Learning Repository
     * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
+    * [Solution](code/06_human_learning_iris.py)
 * Introduction to machine learning ([slides](slides/06_machine_learning.pdf))
-* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Course project:
     * [Example projects](https://github.com/justmarkham/DAT-project-examples)
     * Project question exercise
@@ -203,5 +203,9 @@ Monday | Wednesday
 **Reproducibility Resources:**
 * [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) discusses the importance of writing functions and proper code comments (among other skills), which are highly useful for creating a reproducible analysis.
 * [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) explains how a reproducible analysis demonstrates all of the work that goes into proper data science.
+
+
+### Class 8: K-Nearest Neighbors
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 
 -->
