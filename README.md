@@ -193,8 +193,11 @@ Monday | Wednesday
     * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
 
 **Homework:**
-* If you are not using Anaconda, install the [IPython Notebook](http://ipython.org/install.html) and [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`.
-* If you are using Anaconda, you already have the IPython Notebook, and you should install Seaborn by running `conda install seaborn` at the command line.
+* Your project question and dataset is due on Wednesday.
+* **Optional:** Complete the homework exercise listed in the web scraping code. It will take the place of any one homework you miss, past or future!
+* If you're not using Anaconda, [install the IPython Notebook](http://ipython.org/install.html) using `pip`. (The IPython Notebook comes with Anaconda.)
+* If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line.
+* Watch this brief introduction to [scikit-learn and the IPython Notebook](https://www.youtube.com/watch?v=IsXXlYVBt1M) (15 minutes), and try to follow along with the Notebook introduction on your own computer.
 
 **API Resources:**
 * [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
