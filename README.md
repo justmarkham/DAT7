@@ -182,9 +182,9 @@ Monday | Wednesday
 -----
 
 ### Class 7: Getting Data
-* APIs (code)
+* APIs ([code](code/07_api.py))
     * [OMDb API](http://www.omdbapi.com/)
-* Web scraping (code)
+* Web scraping ([code](code/07_web_scraping.py))
     * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
     * [Example web page](data/example.html)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
@@ -221,5 +221,16 @@ Monday | Wednesday
 
 ### Class 8: K-Nearest Neighbors
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
+* Brief introduction to the IPython Notebook
+* K-nearest neighbors and scikit-learn (notebook)
+* Exploring the bias-variance tradeoff (notebook)
+
+**Homework:**
+* [Reading assignment on the bias-variance tradeoff](homework/09_bias_variance.md)
+* Browse through the scikit-learn documentation for KNN to get a sense of how it's organized: [user guide](http://scikit-learn.org/stable/modules/neighbors.html), [module reference](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.neighbors), [class documentation](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+
+**Resources:**
+* If you would like to learn the IPython Notebook, the official [Notebook tutorials](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb) are useful.
+* To get started with Seaborn for visualization, the official website has a series of [tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
 
 -->
