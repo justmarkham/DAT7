@@ -181,7 +181,7 @@ Monday | Wednesday
 -----
 
 ### Class 7: Getting Data
-* Pandas homework with the IMDb data due ([solution](code/05_pandas_homework_imdb.py)
+* Pandas homework with the IMDb data due ([solution](code/05_pandas_homework_imdb.py))
 * APIs ([code](code/07_api.py))
     * [OMDb API](http://www.omdbapi.com/)
 * Web scraping ([code](code/07_web_scraping.py))
@@ -195,7 +195,7 @@ Monday | Wednesday
 * If you're not using Anaconda, [install the IPython Notebook](http://ipython.org/install.html) using `pip`. (The IPython Notebook comes with Anaconda.)
 * If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line.
 * Watch this brief introduction to [scikit-learn and the IPython Notebook](https://www.youtube.com/watch?v=IsXXlYVBt1M) (15 minutes), and try to follow along with the Notebook introduction on your own computer.
-* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 
 **API Resources:**
 * [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
