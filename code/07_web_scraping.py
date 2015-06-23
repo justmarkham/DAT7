@@ -52,9 +52,8 @@ b.find_all(name='p')    # returns a ResultSet (like a list of Tags)
 # ResultSets can be sliced like lists
 len(b.find_all(name='p'))
 b.find_all(name='p')[0]
-b.find_all(name='p')[1]
-b.find_all(name='p')[1].text
-b.find_all(name='p')[1]['id']
+b.find_all(name='p')[0].text
+b.find_all(name='p')[0]['id']
 
 # iterate over a ResultSet
 results = b.find_all(name='p')
@@ -66,7 +65,7 @@ b.find(name='p', attrs={'id':'scraping'})
 b.find_all(name='p', attrs={'class':'topic'})
 
 # limit search to specific sections
-b.find(name='body').find(name='h1')
+b.find_all(name='li')
 b.find(name='ul', attrs={'id':'scraping'}).find_all(name='li')
 
 '''
@@ -74,36 +73,63 @@ EXERCISE ONE
 '''
 
 # find the 'h2' tag and then print its text
+b.find(name='h2').text
 
 # find the 'p' tag with an 'id' value of 'reproducibility' and then print its text
+b.find(name='p', attrs={'id':'reproducibility'}).text
 
 # find the first 'p' tag and then print the value of the 'id' attribute
+b.find(name='p')['id']
 
 # print the text of all four resources
+results = b.find_all(name='li')
+for tag in results:
+    print tag.text
 
 # print the text of only the API resources
+results = b.find(name='ul', attrs={'id':'api'}).find_all(name='li')
+for tag in results:
+    print tag.text
 
 '''
 Scraping the IMDb website
 '''
 
 # get the HTML from the Shawshank Redemption page
+import requests
+r = requests.get('http://www.imdb.com/title/tt0111161/')
 
 # convert HTML into Soup
+b = BeautifulSoup(r.text)
+print b
+
+# run this code if you have encoding errors
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 # get the title
+b.find_all(name='span', attrs={'class':'itemprop', 'itemprop':'name'})
+b.find(name='span', attrs={'class':'itemprop', 'itemprop':'name'}).text
+b.find(name='h1').find(name='span', attrs={'class':'itemprop', 'itemprop':'name'}).text
 
 # get the star rating
+float(b.find(name='span', attrs={'itemprop':'ratingValue'}).text)
+float(b.find(name='div', attrs={'class':'titlePageSprite star-box-giga-star'}).text)
 
 '''
 EXERCISE TWO
 '''
 
 # get the description
+b.find(name='p', attrs={'itemprop':'description'}).text.strip()
 
 # get the content rating
+b.find(name='meta', attrs={'itemprop':'contentRating'})['content']
 
 # get the duration in minutes (as an integer)
+int(b.find(name='time', attrs={'itemprop':'duration'})['datetime'][2:-1])
+int(b.find(name='time', attrs={'itemprop':'duration'}).text.strip()[:-4])
 
 '''
 OPTIONAL HOMEWORK
