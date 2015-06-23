@@ -92,10 +92,13 @@ movies[movies.genre.isin(top_genres)].groupby('genre').star_rating.mean()
 
 # option 2: automatically create a list of relevant genres by saving the value_counts and then filtering
 genre_counts = movies.genre.value_counts()
-top_genres = genre_counts[genre_counts > 10].index
+top_genres = genre_counts[genre_counts >= 10].index
 movies[movies.genre.isin(top_genres)].groupby('genre').star_rating.mean()
 
-# option 3: aggregate by count and mean, then filter using the count
+# option 3: colculate the average star rating for all genres, then filter using a boolean Series
+movies.groupby('genre').star_rating.mean()[movies.genre.value_counts() >= 10]
+
+# option 4: aggregate by count and mean, then filter using the count
 genre_ratings = movies.groupby('genre').star_rating.agg(['count', 'mean'])
 genre_ratings[genre_ratings['count'] >= 10]
 
