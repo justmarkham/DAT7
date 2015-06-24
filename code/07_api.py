@@ -41,7 +41,7 @@ r.json()
 
 # define a function to return the year
 def get_movie_year(title):
-    r = requests.get('http://www.omdbapi.com/?t='+title+'&r=json&type=movie')
+    r = requests.get('http://www.omdbapi.com/?t=' + title + '&r=json&type=movie')
     info = r.json()
     if info['Response'] == 'True':
         return int(info['Year'])
