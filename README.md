@@ -220,8 +220,8 @@ Monday | Wednesday
     * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Brief introduction to the IPython Notebook
-* K-nearest neighbors and scikit-learn ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/08_knn_sklearn.ipynb))
-* Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/08_bias_variance.ipynb))
+* K-nearest neighbors and scikit-learn ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/08_knn_sklearn.ipynb), [notebook code](code/08_knn_sklearn_nb.py))
+* Exploring the bias-variance tradeoff ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/08_bias_variance.ipynb), [notebook code](code/08_bias_variance_nb.py))
 
 **Homework:**
 * [Reading assignment on the bias-variance tradeoff](homework/09_bias_variance.md)
@@ -247,7 +247,7 @@ Monday | Wednesday
 
 ### Class 9: Model Evaluation Part 1
 * Discuss the [assigned reading](homework/09_bias_variance.md) on the bias-variance tradeoff
-* Model evaluation using train/test split ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/09_model_evaluation.ipynb))
+* Model evaluation using train/test split ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/09_model_evaluation.ipynb), [notebook code](code/09_model_evaluation_nb.py))
 * Glass identification exercise using scikit-learn ([instructions](homework/09_glass_id.md), [code](code/09_glass_id.py))
 
 **Homework:**
