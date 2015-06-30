@@ -52,7 +52,7 @@ for k in k_range:
 
 # TASK 10: plot K value versus testing accuracy to choose on optimal value for K
 import matplotlib.pyplot as plt
-plt.plot(k_range, k_scores)                     # optimal value is K=1
+plt.plot(k_range, k_scores)                     # optimal value is K=3
 
 # TASK 11: calculate the null accuracy (see instructions for explanation)
 1 - y_test.mean()                               # 74.1% null accuracy
