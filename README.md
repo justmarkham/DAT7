@@ -262,7 +262,7 @@ Monday | Wednesday
 -----
 
 ### Class 10: Linear Regression
-* Linear regression ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb)
+* Linear regression ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb))
 
 **Homework:**
 * Complete the [homework assignment](homework/10_yelp_reviews.md) with the [Yelp reviews data](data/yelp.csv), and add a Python script (or IPython notebook) to your GitHub repo. This assignment is due on Monday.
