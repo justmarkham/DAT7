@@ -1,6 +1,12 @@
 ## Class 10 Homework: Yelp Reviews
 
-This assignment uses a small subset of the data from Kaggle's [Yelp Business Rating Prediction](https://www.kaggle.com/c/yelp-recsys-2013) competition. (There is no need to download the data from the Kaggle website.)
+This assignment uses a small subset of the data from Kaggle's [Yelp Business Rating Prediction](https://www.kaggle.com/c/yelp-recsys-2013) competition.
+
+* `yelp.json` is the original format of the file. `yelp.csv` contains the same data, in a more convenient format. Both of the files are in this repo, so there is no need to download the data from the Kaggle website.
+* Each observation in this dataset is a review of a particular business by a particular user.
+* The "stars" column is the number of stars (1 through 5) assigned by the reviewer to the business. (Higher stars is better.)
+* The "cool" column is the number of "cool" votes this particular review received from other Yelp users. There is no limit to how many "cool" votes a review can receive.
+* The "useful" and "funny" columns are similar to the "cool" column.
 
 1. Read `yelp.csv` into a DataFrame.
     * **Alternative:** Construct this DataFrame yourself from `yelp.json`. This involves reading the data into Python, decoding the JSON, converting it to a DataFrame, and adding individual columns for each of the vote types.
@@ -12,3 +18,4 @@ This assignment uses a small subset of the data from Kaggle's [Yelp Business Rat
 7. **Bonus:** Think of some new features you could create from the existing data that might be predictive of the response. (This is called "feature engineering".) Figure out how to create those features in Pandas, add them to your model, and see if the RMSE improves.
 8. **Bonus:** Compare your best RMSE on testing set with the RMSE for the "null model", which is the model that ignores all features and simply predicts the mean rating in the training set for all observations in the testing set.
 9. **Bonus:** Instead of treating this as a regression problem, treat it as a classification problem and see what testing accuracy you can achieve with KNN.
+10. **Bonus:** Figure out how to use linear regression for classification, and compare its classification accuracy to KNN.
