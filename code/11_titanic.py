@@ -17,7 +17,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 
 # TASK 4: fit a logistic regression model and examine the coefficients
 from sklearn.linear_model import LogisticRegression
-logreg = LogisticRegression()
+logreg = LogisticRegression(C=1e9)
 logreg.fit(X_train, y_train)
 zip(feature_cols, logreg.coef_[0])
 
