@@ -189,6 +189,7 @@ print logreg.predict_proba(3)
 # - Dice roll less than 5: probability = 4/6, odds = 4/2 = 2
 
 # $$odds = \frac {probability} {1 - probability}$$
+# $$probability = \frac {odds} {1 + odds}$$
 
 # create a table of probability versus odds
 table = pd.DataFrame({'probability':[0.1, 0.2, 0.25, 0.5, 0.6, 0.8, 0.9]})
@@ -249,7 +250,7 @@ plt.scatter(glass.al, glass.assorted)
 plt.plot(glass.al, assorted_pred_prob, color='red')
 
 # compute predicted log-odds for al=2 using the equation
-logodds = logreg.intercept_ + logreg.coef_ * 2
+logodds = logreg.intercept_ + logreg.coef_[0] * 2
 logodds
 
 # convert log-odds to odds
