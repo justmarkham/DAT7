@@ -12,8 +12,8 @@ Monday | Wednesday
 6/8: Data Reading and Cleaning | 6/10: Exploratory Data Analysis
 6/15: Visualization | 6/17: Machine Learning
 6/22: Getting Data<br>**Project Discussion Deadline** | 6/24: K-Nearest Neighbors<br>**Project Question and Dataset Due**
-6/29: Model Evaluation Part 1 | 7/1: Linear Regression
-7/6: Logistic Regression | 7/8: Model Evaluation Part 2
+6/29: Basic Model Evaluation | 7/1: Linear Regression
+7/6: Logistic Regression | 7/8: Advanced Model Evaluation
 7/13: **First Project Presentation** | 7/15: Naive Bayes and Text Data
 7/20: Natural Language Processing | 7/22: Kaggle Competition
 7/27: Decision Trees<br>**Draft Paper Due** | 7/29: Ensembling
@@ -245,7 +245,7 @@ Monday | Wednesday
 
 -----
 
-### Class 9: Model Evaluation Part 1
+### Class 9: Basic Model Evaluation
 * Discuss the reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
 * Model evaluation using train/test split ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/09_model_evaluation.ipynb), [notebook code](code/09_model_evaluation_nb.py))
 * Glass identification exercise using scikit-learn ([instructions](homework/09_glass_id.md), [code](code/09_glass_id.py))
@@ -302,16 +302,19 @@ Monday | Wednesday
 * [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a very nice comparison of four classifiers we cover in the course (logistic regression, decision trees, KNN, Naive Bayes) and one classifier we do not cover (Support Vector Machines).
 * My [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) may be useful to you as a reference.
 
-<!--
+-----
 
-### Class 12: Model Evaluation Part 2
-* Handling categorical features
+### Class 12: Advanced Model Evaluation
+* Advanced model evaluation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_advanced_model_evaluation.ipynb)
+    * Null accuracy, handling missing values
+    * Confusion matrix
+    * Handling categorical features
 * ROC curves and AUC
     * Discuss the [video assignment](homework/12_roc_auc.md)
-    * Exercise: drawing an ROC curve
+    * Exercise: drawing an ROC curve ([slides](slides/12_drawing_roc.pdf))
+    * Return to the notebook
 * Cross-validation
     * Discuss the [video assignment](homework/12_cross_validation.md) ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_cross_validation.ipynb), [notebook code](code/12_cross_validation_nb.py))
-    * Article discussion: [Smart Autofill for Google Sheets](http://googleresearch.blogspot.com/2014/10/smart-autofill-harnessing-predictive.html)
 
 **Homework:**
 * Your first project presentation is on Monday! Please submit a link to your project repository (with slides, code, data, and visualizations) before class using the submission form.
@@ -319,6 +322,7 @@ Monday | Wednesday
 **ROC Resources:**
 * Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
 * [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) is a very readable paper on the topic.
+* This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
 
 **Cross-Validation Resources:**
 * scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
@@ -326,4 +330,5 @@ Monday | Wednesday
 * [Accurately Measuring Model Prediction Error](http://scott.fortmann-roe.com/docs/MeasuringError.html) compares adjusted R-squared, AIC and BIC, train/test split, and cross-validation.
 * If you want to understand the different variations of cross-validation, this [paper](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf) examines and compares them in detail.
 
--->
+**Other Resources:**
+* Section 3.3.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages) has a great explanation of dummy encoding for categorical features.
