@@ -54,7 +54,7 @@ You'll be giving a short presentation to the class about the work you have done 
 * Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
 * How might you use modeling to answer your question?
 
-#### Logistics and tips for success
+##### Logistics and tips for success
 
 * Please submit a link to your repository (with slides) no later than 6pm on Monday. I'll be copying your slides to my computer before class begins. Please don't Slack your materials to me unless you are having problems with GitHub.
 * Everyone will be presenting from my computer, so your slides should be in a format that can be easily read on any computer (PDF, PowerPoint, Google Slides, IPython Notebook).
