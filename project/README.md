@@ -54,6 +54,16 @@ You'll be giving a short presentation to the class about the work you have done 
 * Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
 * How might you use modeling to answer your question?
 
+#### Logistics and tips for success
+
+* Please submit a link to your repository (with slides) no later than 6pm on Monday. I'll be copying your slides to my computer before class begins. Please don't Slack your materials to me unless you are having problems with GitHub.
+* Everyone will be presenting from my computer, so your slides should be in a format that can be easily read on any computer (PDF, PowerPoint, Google Slides, IPython Notebook).
+* You will have exactly 5 minutes to present, followed by 1 minute of questions.
+* Tell your story in an engaging fashion.
+* Make sure your project question is crystal clear to every person in the room in the first minute.
+* It is critical that you practice delivering your presentation and time yourself.
+* If you find that your presentation is longer than 5 minutes, the solution is not to speak more quickly. Instead, focus your presentation around the most interesting aspects of your project.
+
 ### July 27: Draft paper due
 
 A draft of your **project paper** is due, along with the **data, well-commented code, and visualizations**. It should be written with a technical audience in mind. Your paper should include the following components:
