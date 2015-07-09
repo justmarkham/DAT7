@@ -305,7 +305,7 @@ Monday | Wednesday
 -----
 
 ### Class 12: Advanced Model Evaluation
-* Advanced model evaluation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_advanced_model_evaluation.ipynb))
+* Advanced model evaluation ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_advanced_model_evaluation.ipynb), [notebook code](code/12_advanced_model_evaluation_nb.py))
     * Null accuracy, handling missing values
     * Confusion matrix
     * Handling categorical features
