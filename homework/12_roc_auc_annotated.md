@@ -24,7 +24,5 @@ Here are some questions to think about:
     - Reverse your predictions so that your AUC is 0.8.
 - What would the plot of reds and blues look like for a dataset in which each observation was a credit card transaction, and the response variable was whether or not the transaction was fraudulent? (0 = not fraudulent, 1 = fraudulent)
     - Blues would be significantly larger, lots of overlap between blues and reds.
-- Let's say your classifier has a sensitivity of 0.95 and a specificity of 0.3, and the classes are balanced. Would it result in more false positives or false negatives?
-    - False positives, meaning it falsely predicted positive when the true status was negative.
 - What's a real-world scenario in which you would prefer high specificity (rather than high sensitivity) for your classifier?
     - Speed cameras issuing speeding tickets.
