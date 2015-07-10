@@ -292,7 +292,6 @@ Monday | Wednesday
 **Homework:**
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
 * Video assignment on [ROC curves and AUC](homework/12_roc_auc.md)
-* Video assignment on [cross-validation](homework/12_cross_validation.md)
 
 **Resources:**
 * To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
@@ -313,8 +312,6 @@ Monday | Wednesday
     * Discuss the [video assignment](homework/12_roc_auc.md)
     * Exercise: drawing an ROC curve ([slides](slides/12_drawing_roc.pdf))
     * Return to the notebook
-* Cross-validation
-    * Discuss the [video assignment](homework/12_cross_validation.md) ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_cross_validation.ipynb), [notebook code](code/12_cross_validation_nb.py))
 
 **Homework:**
 * Your first project presentation is on Monday! Please submit a link to your project repository (with slides, code, data, and visualizations) before class using the submission form.
@@ -327,11 +324,84 @@ Monday | Wednesday
 * This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
 * This short notebook demonstrates how ROC curves and AUC are only sensitive to the [rank ordering of predicted probabilities](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_roc_auc_rank_ordering.ipynb).
 
-**Cross-Validation Resources:**
+**Other Resources:**
 * scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
+* Section 3.3.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages) has a great explanation of dummy encoding for categorical features.
+
+-----
+
+### Class 13: First Project Presentation
+* Project presentations!
+
+**Homework:**
+* Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php) (12 pages). Pay specific attention to the following terms: probability, mutually exclusive, sample space, independent.
+* **Optional:** Try to gain an understanding of conditional probability from this [visualization](http://setosa.io/conditional/).
+* **Optional:** For an intuitive introduction to Bayes' theorem, read these posts on [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), or [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
+* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
+
+-----
+
+### Class 14: Naive Bayes and Text Data
+* Conditional probability and Bayes' theorem
+    * Slides (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
+    * Applying Bayes' theorem to iris classification (notebook)
+* Naive Bayes classification
+    * Slides
+    * Example with spam email (notebook)
+    * Discuss the reading assignment on [spam filtering](homework/14_spam_filtering.md)
+    * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
+    * Exercise with Yelp review text
+
+**Homework:**
+* Confirm that you have [TextBlob](https://textblob.readthedocs.org/) installed by running `import textblob` from within your preferred Python environment. If it's not installed, run `pip install textblob` at the command line (not from within Python).
+* Complete the Yelp exercise from today's class, and add a Python script (or IPython notebook) to your GitHub repo. This assignment is due on Monday.
+* Video/reading assignment on [cross-validation](homework/15_cross_validation.md)
+
+**Resources:**
+* For more on conditional probability, read these [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00), or read section 2.2 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php) (14 pages).
+* For an intuitive explanation of Naive Bayes classification, read this post on [airport security](http://www.quora.com/In-laymans-terms-how-does-Naive-Bayes-work/answer/Konstantin-Tt).
+* For more details on Naive Bayes classification, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
+* These [slides](http://www.umiacs.umd.edu/~jbg/teaching/DATA_DIGGING/lecture_05.pdf) from the University of Maryland provide more mathematical details on both logistic regression and Naive Bayes, and also explain how Naive Bayes is actually a "special case" of logistic regression.
+* If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
+
+-----
+
+### Class 15: Natural Language Processing
+* Natural language processing
+* Cross-validation
+    * Discuss the [video/reading assignment](homework/15_cross_validation.md) ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_cross_validation.ipynb), [notebook code](code/15_cross_validation_nb.py))
+* Introduction to our Kaggle competition
+    * Join the competition using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
+
+**Homework:**
+* Download the competition data, and make sure you can open the CSV files. If you have any problems opening the files, you probably need to turn off real-time virus scanning.
+* Come up with some theories about which features might be relevant to predicting the response, and then explore the data to see if those theories appear to be true.
+* **Optional:** Think about some features that might be worth creating from the data, and then figure out how to actually create those features.
+* **Optional:** Watch my [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutes) for a tour of the end-to-end machine learning process for a Kaggle competition, including the creation of new features. (Or, just read through the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
+
+**NLP Resources:**
+* If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
+* [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
+* [spaCy](https://honnibal.github.io/spaCy/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
+* If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
+* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.
+
+**Cross-Validation Resources:**
 * For more on cross-validation, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages) or watch the related videos: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutes), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutes).
 * [Accurately Measuring Model Prediction Error](http://scott.fortmann-roe.com/docs/MeasuringError.html) compares adjusted R-squared, AIC and BIC, train/test split, and cross-validation.
 * If you want to understand the different variations of cross-validation, this [paper](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf) examines and compares them in detail.
 
-**Other Resources:**
-* Section 3.3.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages) has a great explanation of dummy encoding for categorical features.
+-----
+
+### Class 16: Kaggle Competition
+* Overview of how Kaggle works (slides)
+* Kaggle In-Class competition: Predict whether a Stack Overflow question will be closed
+
+**Optional:**
+* Keep working on this competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Wednesday, August 5 (class 20).
+
+**Resources:**
+* For a great overview of the diversity of problems tackled by Kaggle competitions, watch [Kaggle Transforms Data Science Into Competitive Sport](https://www.youtube.com/watch?v=8w4UY66GKcM) (28 minutes) by Jeremy Howard (past president of Kaggle).
+* [Getting in Shape for the Sport of Data Science](https://www.youtube.com/watch?v=kwt6XEh7U3g) (74 minutes), also by Jeremy Howard, contains a lot of tips for competitive machine learning.
+* [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/) is an excellent blog post covering top tips from Kaggle Masters on how to do well on Kaggle.
+* [Feature Engineering Without Domain Expertise](https://www.youtube.com/watch?v=bL4b1sGnILU) (17 minutes), a talk by Kaggle Master Nick Kridler, provides some simple advice about how to iterate quickly and where to spend your time during a Kaggle competition.
