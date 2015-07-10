@@ -334,10 +334,10 @@ Monday | Wednesday
 * Project presentations!
 
 **Homework:**
+* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
 * Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php) (12 pages). Pay specific attention to the following terms: probability, mutually exclusive, sample space, independent.
 * **Optional:** Try to gain an understanding of conditional probability from this [visualization](http://setosa.io/conditional/).
 * **Optional:** For an intuitive introduction to Bayes' theorem, read these posts on [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), or [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
-* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
 
 -----
 
@@ -355,7 +355,7 @@ Monday | Wednesday
 **Homework:**
 * Confirm that you have [TextBlob](https://textblob.readthedocs.org/) installed by running `import textblob` from within your preferred Python environment. If it's not installed, run `pip install textblob` at the command line (not from within Python).
 * Complete the Yelp exercise from today's class, and add a Python script (or IPython notebook) to your GitHub repo. This assignment is due on Monday.
-* Video/reading assignment on [cross-validation](homework/15_cross_validation.md)
+* There is a video/reading assignment on [cross-validation](homework/15_cross_validation.md), for those of you that have not already watched the video or would prefer a reading instead.
 
 **Resources:**
 * For more on conditional probability, read these [slides](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00), or read section 2.2 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php) (14 pages).
@@ -397,8 +397,8 @@ Monday | Wednesday
 * Overview of how Kaggle works (slides)
 * Kaggle In-Class competition: Predict whether a Stack Overflow question will be closed
 
-**Optional:**
-* Keep working on this competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Wednesday, August 5 (class 20).
+**Homework:**
+* **Optional:** Keep working on this competition! You can make up to 5 submissions per day, and the competition doesn't close until 6:30pm ET on Wednesday, August 5 (class 20).
 
 **Resources:**
 * For a great overview of the diversity of problems tackled by Kaggle competitions, watch [Kaggle Transforms Data Science Into Competitive Sport](https://www.youtube.com/watch?v=8w4UY66GKcM) (28 minutes) by Jeremy Howard (past president of Kaggle).
