@@ -1,6 +1,8 @@
-## Class 12 Pre-work: Cross-validation
+## Class 15 Pre-work: Cross-validation
 
-Watch my video on [cross-validation](https://www.youtube.com/watch?v=6dbrR-WymjI) (36 minutes), and be prepared to **discuss it in class** on Wednesday. The [notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/12_cross_validation.ipynb) shown in the video is also in this repository.
+Watch my video on [cross-validation](https://www.youtube.com/watch?v=6dbrR-WymjI) (36 minutes), and be prepared to **discuss it in class** on Monday. The [notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_cross_validation.ipynb) shown in the video is also in this repository.
+
+Alternatively, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages).
 
 Here are some questions to think about:
 
