@@ -350,11 +350,11 @@ Monday | Wednesday
     * Example with spam filtering ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/14_naive_bayes_spam.ipynb))
     * Discuss the reading assignment on [spam filtering](homework/14_spam_filtering.md)
     * Classifying [SMS messages](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) ([code](code/14_naive_bayes.py))
-    * Begin homework with Yelp review text
+    * Begin [homework](homework/14_yelp_text.md) with Yelp review text
 
 **Homework:**
 * Confirm that you have [TextBlob](https://textblob.readthedocs.org/) installed by running `import textblob` from within your preferred Python environment. If it's not installed, run `pip install textblob` at the command line (not from within Python).
-* Complete the Yelp review text homework, and add a Python script (or IPython notebook) to your GitHub repo. This assignment is due on Monday.
+* Complete the [Yelp review text homework](homework/14_yelp_text.md), and add a Python script (or IPython notebook) to your GitHub repo. This assignment is due on Monday.
 * There is a video/reading assignment on [cross-validation](homework/15_cross_validation.md), for those of you that have not already watched the video or would prefer a reading instead.
 
 **Resources:**
