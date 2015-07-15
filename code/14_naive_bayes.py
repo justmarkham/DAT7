@@ -6,7 +6,8 @@ CLASS: Naive Bayes SMS spam classifier
 
 # read tab-separated file using pandas
 import pandas as pd
-sms = pd.read_table('sms.tsv', sep='\t', header=None, names=['label', 'msg'])
+url = 'https://raw.githubusercontent.com/justmarkham/DAT7/master/data/sms.tsv'
+sms = pd.read_table(url, sep='\t', header=None, names=['label', 'msg'])
 
 # examine the data
 sms.head(20)
