@@ -383,7 +383,9 @@ Monday | Wednesday
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
+* This slide deck defines many of the [key NLP terms](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf).
 * [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
+* [A Smattering of NLP in Python](http://nbviewer.ipython.org/github/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK, as does this [notebook from DAT5](http://nbviewer.ipython.org/github/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).
 * [spaCy](https://honnibal.github.io/spaCy/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
 * If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
 * [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.
