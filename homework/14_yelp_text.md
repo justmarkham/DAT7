@@ -10,7 +10,7 @@ After each task, I recommend that you check the **shape** and the **contents** o
 2. Create a new DataFrame that only contains the 5-star and 1-star reviews.
 3. Split the new DataFrame into training and testing sets, using the review text as the feature and the star rating as the response.
 4. Use CountVectorizer to create document-term matrices from X_train and X_test.
-    * **Hint:** You will have to tell CountVectorizer to ignore any decoding errors.
+    * **Hint:** If you run into a decoding error, instantiate the vectorizer with the argument `decode_error='ignore'`.
 5. Use Naive Bayes to predict the star rating for reviews in the testing set, and calculate the accuracy.
 6. Calculate the AUC.
     * **Hint 1:** Make sure to pass the predicted probabilities to `roc_auc_score`, not the predicted classes.
