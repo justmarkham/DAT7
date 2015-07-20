@@ -370,13 +370,15 @@ Monday | Wednesday
 ### Class 15: Natural Language Processing
 * Yelp review text homework due
 * Natural language processing
+    * [Notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_natural_language_processing.ipynb)
+    * Examples: [My text prediction app](https://justmarkham.shinyapps.io/textprediction/), and a [much better app](https://farsite.shinyapps.io/swiftkey-cap/)
 * Cross-validation
     * Discuss the [video/reading assignment](homework/15_cross_validation.md) ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_cross_validation.ipynb), [notebook code](code/15_cross_validation_nb.py))
 * Introduction to our Kaggle competition
-    * Join the competition using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
+    * Join the [competition](https://inclass.kaggle.com/c/dat7-stack-overflow) using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
 
 **Homework:**
-* Download the competition data, and make sure you can open the CSV files. If you have any problems opening the files, you probably need to turn off real-time virus scanning.
+* Download the competition files, move them to the `DAT7/data` directory, and make sure you can open the CSV files using Pandas. If you have any problems opening the files, you probably need to turn off real-time virus scanning.
 * Come up with some theories about which features might be relevant to predicting the response, and then explore the data to see if those theories appear to be true.
 * **Optional:** Think about some features that might be worth creating from the data, and then figure out how to actually create those features.
 * **Optional:** Watch my [project presentation video](https://www.youtube.com/watch?v=HGr1yQV3Um0) (16 minutes) for a tour of the end-to-end machine learning process for a Kaggle competition, including the creation of new features. (Or, just read through the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
@@ -399,7 +401,7 @@ Monday | Wednesday
 
 ### Class 16: Kaggle Competition
 * Overview of how Kaggle works (slides)
-* Kaggle In-Class competition: Predict whether a Stack Overflow question will be closed
+* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat7-stack-overflow)
 
 **Homework:**
 * Your draft paper is due on Monday! Please submit a link to your project repository (with paper, code, data, and visualizations) before class using the submission form.
