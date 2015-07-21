@@ -368,14 +368,12 @@ Monday | Wednesday
 -----
 
 ### Class 15: Natural Language Processing
-* Yelp review text homework due
-* Natural language processing
-    * [Notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_natural_language_processing.ipynb)
-    * Examples: [My text prediction app](https://justmarkham.shinyapps.io/textprediction/), and a [much better app](https://farsite.shinyapps.io/swiftkey-cap/)
+* Yelp review text homework due ([solution](code/14_yelp_text.py))
+* Natural language processing ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_natural_language_processing.ipynb))
 * Cross-validation
     * Discuss the [video/reading assignment](homework/15_cross_validation.md) ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/15_cross_validation.ipynb), [notebook code](code/15_cross_validation_nb.py))
 * Introduction to our Kaggle competition
-    * Join the [competition](https://inclass.kaggle.com/c/dat7-stack-overflow) using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
+    * Create a [Kaggle](https://www.kaggle.com/) account, join the [competition](https://inclass.kaggle.com/c/dat7-stack-overflow) using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
 
 **Homework:**
 * Download the competition files, move them to the `DAT7/data` directory, and make sure you can open the CSV files using Pandas. If you have any problems opening the files, you probably need to turn off real-time virus scanning.
