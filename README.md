@@ -398,7 +398,7 @@ Monday | Wednesday
 -----
 
 ### Class 16: Kaggle Competition
-* Overview of how Kaggle works (slides)
+* Overview of how Kaggle works ([slides](slides/16_kaggle.pdf))
 * Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat7-stack-overflow)
 
 **Homework:**
