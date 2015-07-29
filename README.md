@@ -400,7 +400,9 @@ Monday | Wednesday
 
 ### Class 16: Kaggle Competition
 * Overview of how Kaggle works ([slides](slides/16_kaggle.pdf))
-* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat7-stack-overflow) ([code](code/16_kaggle.py))
+* Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat7-stack-overflow)
+    * [Complete code file](code/16_kaggle.py)
+    * [Minimal code file](code/16_kaggle_minimal.py): excludes all exploratory code
     * [Explanations of log loss](http://www.quora.com/What-is-an-intuitive-explanation-for-the-log-loss-function)
 
 **Homework:**
@@ -440,7 +442,7 @@ Monday | Wednesday
 
 ### Class 18: Ensembling
 * Finish decision trees lesson
-* Ensembling (notebook)
+* Ensembling ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/18_ensembling.ipynb)
 
 **Resources:**
 * scikit-learn's documentation on [ensemble methods](http://scikit-learn.org/stable/modules/ensemble.html) covers both "averaging methods" (such as bagging and Random Forests) as well as "boosting methods" (such as AdaBoost and Gradient Tree Boosting).
