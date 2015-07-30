@@ -442,7 +442,7 @@ Monday | Wednesday
 
 ### Class 18: Ensembling
 * Finish decision trees lesson
-* Ensembling ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/18_ensembling.ipynb))
+* Ensembling ([notebook](http://nbviewer.ipython.org/github/justmarkham/DAT7/blob/master/notebooks/18_ensembling.ipynb), [notebook code](code/18_ensembling_nb.py))
 
 **Resources:**
 * scikit-learn's documentation on [ensemble methods](http://scikit-learn.org/stable/modules/ensemble.html) covers both "averaging methods" (such as bagging and Random Forests) as well as "boosting methods" (such as AdaBoost and Gradient Tree Boosting).
