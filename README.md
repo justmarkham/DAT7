@@ -17,7 +17,7 @@ Monday | Wednesday
 7/13: **First Project Presentation** | 7/15: Naive Bayes and Text Data
 7/20: Natural Language Processing | 7/22: Kaggle Competition
 7/27: Decision Trees<br>**Draft Paper Due** | 7/29: Ensembling
-8/3: Clustering, **Peer Review Due** | 8/5: Course Review
+8/3: Advanced scikit-learn and<br>Clustering, **Peer Review Due** | 8/5: Course Review
 8/10: **Final Project Presentation** | 8/12: **Final Project Presentation**
 
 <!--
@@ -450,3 +450,29 @@ Monday | Wednesday
 * MLWave's [Kaggle Ensembling Guide](http://mlwave.com/kaggle-ensembling-guide/) is very thorough and shows the many different ways that ensembling can take place.
 * Browse the excellent [solution paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ChenglongChen/Kaggle_CrowdFlower/master/Doc/Kaggle_CrowdFlower_ChenglongChen.pdf) from the winner of Kaggle's [CrowdFlower competition](https://www.kaggle.com/c/crowdflower-search-relevance) for an example of the work and insight required to win a Kaggle competition.
 * [Interpretable vs Powerful Predictive Models: Why We Need Them Both](https://medium.com/@chris_bour/interpretable-vs-powerful-predictive-models-why-we-need-them-both-990340074979) is a short post on how the tactics useful in a Kaggle competition are not always useful in the real world.
+
+-----
+
+### Class 19: Advanced scikit-learn and Clustering
+* Advanced scikit-learn ([code](code/19_advanced_sklearn.py))
+    * [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html): searching for optimal parameters ([exercise](code/19_grid_exercise.py)
+    * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardization of features
+    * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
+* Clustering ([slides](slides/19_clustering.pdf), [code](code/19_clustering.py))
+    * K-means: [visualization](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+    * DBSCAN: [visualization](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+
+**Homework:**
+* **Optional:** Read this classic paper, which may help you to connect many of the topics we have studied throughout the course: [A Few Useful Things to Know about Machine Learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
+
+**scikit-learn Resources:**
+* For a recap of today's lesson on GridSearchCV, plus a comparison with RandomizedSearchCV, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=8) (28 minutes) or read through the [companion notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
+* Here is a longer example of [feature scaling](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
+* [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) is a long and well-written notebook that includes the use of scikit-learn's Pipeline.
+* scikit-learn has an incredibly active [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) that is often much more useful than Stack Overflow for researching a particular function.
+
+**Clustering Resources:**
+* scikit-learn's documentation on [clustering](http://scikit-learn.org/stable/modules/clustering.html) compares many different types of clustering.
+* For a very thorough introduction to clustering, read chapter 8 (69 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (available as a free download), or browse through the chapter 8 slides.
+* An Introduction to Statistical Learning has useful videos on [K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (17 minutes) and [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutes).
+* Fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
