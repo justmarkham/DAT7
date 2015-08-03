@@ -455,7 +455,7 @@ Monday | Wednesday
 
 ### Class 19: Advanced scikit-learn and Clustering
 * Advanced scikit-learn ([code](code/19_advanced_sklearn.py))
-    * [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html): searching for optimal parameters ([exercise](code/19_grid_exercise.py)
+    * [GridSearchCV](http://scikit-learn.org/stable/modules/grid_search.html): searching for optimal parameters ([exercise](code/19_grid_exercise.py))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardization of features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
 * Clustering ([slides](slides/19_clustering.pdf), [code](code/19_clustering.py))
