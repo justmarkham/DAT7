@@ -36,3 +36,29 @@ those parameters, make predictions on the test set, and submit those predictions
 BONUS TASK #2: Read the scikit-learn documentation for GridSearchCV to find the
 shortcut for accomplishing bonus task #1.
 '''
+
+# MAIN TASK
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier()
+from sklearn.grid_search import GridSearchCV
+neighbors_range = [20, 40, 60, 80, 100]
+weight_options = ['uniform', 'distance']
+param_grid = dict(n_neighbors=neighbors_range, weights=weight_options)
+grid = GridSearchCV(knn, param_grid, cv=5, scoring='log_loss')
+grid.fit(X, y)
+grid.grid_scores_
+grid.best_score_
+grid.best_params_
+
+# BONUS TASK #1
+knn = KNeighborsClassifier(n_neighbors=100, weights='uniform')
+knn.fit(X, y)
+X_oos = test[feature_cols]
+oos_pred_prob = knn.predict_proba(X_oos)[:, 1]
+sub = pd.DataFrame({'id':test.index, 'OpenStatus':oos_pred_prob}).set_index('id')
+sub.to_csv('sub.csv')
+
+# BONUS TASK #2
+oos_pred_prob = grid.predict_proba(X_oos)[:, 1]
+sub = pd.DataFrame({'id':test.index, 'OpenStatus':oos_pred_prob}).set_index('id')
+sub.to_csv('sub.csv')
