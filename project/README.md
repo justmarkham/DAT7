@@ -58,11 +58,15 @@ You'll be giving a short presentation to the class about the work you have done 
 
 * Please submit a link to your repository (with slides) no later than 6pm on Monday. I'll be copying your slides to my computer before class begins. Please don't Slack your materials to me unless you are having problems with GitHub.
 * Everyone will be presenting from my computer, so your slides should be in a format that can be easily read on any computer (PDF, PowerPoint, Google Slides, IPython Notebook).
-* You will have exactly 5 minutes to present, followed by 1 minute of questions.
+* You will have exactly 6 minutes to present, followed by 1 minute of questions.
 * Tell your story in an engaging fashion.
 * Make sure your project question is crystal clear to every person in the room in the first minute.
 * It is critical that you practice delivering your presentation and time yourself.
-* If you find that your presentation is longer than 5 minutes, the solution is not to speak more quickly. Instead, focus your presentation around the most interesting aspects of your project.
+* If you find that your presentation is longer than 6 minutes, the solution is not to speak more quickly. Instead, focus your presentation around the most interesting aspects of your project.
+
+##### Note on including your data
+
+If it's not practical to include your entire dataset in your GitHub repository, you should link to your data source and provide a sample of the data. (GitHub has a [size limit](https://help.github.com/articles/what-is-my-disk-quota/) of 100 MB per file and 1 GB per repository.) If your data is private, you can either include an "anonymized" version of your data or create a private GitHub repository.
 
 ### July 27: Draft paper due
 
@@ -89,12 +93,18 @@ You will provide project feedback to two of your peers, according to the [peer r
 Your project repository on GitHub should contain the following:
 
 * **Project paper:** any format (PDF, Markdown, etc.)
-* **Presentation slides:** any format (PDF, PowerPoint, Google Slides, etc.)
+* **Presentation slides:** any format except for Keynote (PDF, PowerPoint, Google Slides, IPython Notebook, etc.)
 * **Code:** commented Python scripts, and any other code you used in the project
 * **Visualizations:** integrated into your paper and/or slides
 * **Data:** data files in "raw" or "processed" format
 * **Data dictionary (aka "code book"):** description of each variable, including units
 
-While your project paper should focus on a technical audience, your presentation should be suitable for a non-technical audience. Focus on creating an engaging, clear, and informative presentation that tells the story of your project, rather than trying to include every last detail.
+##### Logistics and tips for success (similar to last time)
 
-Note: If it's not practical to include your entire dataset in your GitHub repository, you should link to your data source and provide a sample of the data. (GitHub has a [size limit](https://help.github.com/articles/what-is-my-disk-quota/) of 100 MB per file and 1 GB per repository.) If your data is private, you can either include an "anonymized" version of your data or create a private GitHub repository.
+* Please submit a link to your repository (with slides) by 6pm on the day you are presenting.
+* Regardless of which day you are presenting, your repository should also contain the other required project components by 6pm on the last day of class.
+* You will have exactly 12 minutes to present, followed by 2 minutes of questions. Practice your presentation and time yourself!
+* Your presentation should start with a recap of the key information from the previous presentation (including your project question), but you should spend the majority of your presentation discussing what has happened since then.
+* If your presentation is too long, focus it around the most interesting aspects of your project, rather than trying to include every last detail.
+* Tell your story in an engaging fashion.
+* You are welcome to invite your friends and family members to attend.
