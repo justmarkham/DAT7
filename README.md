@@ -480,8 +480,8 @@ Monday | Wednesday
 -----
 
 ### Class 20: Course Review
-* Data science review
-* Comparing supervised learning algorithms
+* [Data science review](https://docs.google.com/document/d/1pwSGwz5lDeQMNheTOacKptusW2Q6gQ5uTiu5EkKicmk/edit?usp=sharing)
+* [Comparing supervised learning algorithms](https://docs.google.com/spreadsheets/d/1tne8UpZwJkvHy7C7NPxjCsF5mFm5mENP2AQ9OS7w3no/edit?usp=sharing) ([related blog post](http://www.dataschool.io/comparing-supervised-learning-algorithms/))
 
 **Homework:**
 * Your final project is due next week!
@@ -496,3 +496,36 @@ Monday | Wednesday
 -----
 
 ### Classes 21 and 22: Final Project Presentation
+* Project presentations!
+
+-----
+
+### Extra Resources
+
+#### Databases and SQL
+* This [slide deck](https://github.com/justmarkham/DAT5/blob/master/slides/20_sql.pdf), created by a GA instructor, provides a brief introduction to databases and SQL. The [Python script](https://github.com/justmarkham/DAT5/blob/master/code/20_sql.py) from that lesson demonstrates basic SQL queries, as well as how to connect to a SQLite database from Python and how to query it using Pandas.
+* The repository for this [SQL Bootcamp](https://github.com/brandonmburroughs/sql_bootcamp), taught by the same GA instructor, contains an extremely well-commented SQL script that is suitable for walking through on your own.
+* This [notebook](http://nbviewer.ipython.org/github/podopie/DAT18NYC/blob/master/classes/17-relational_databases.ipynb), created by a different GA instructor, provides a shorter introduction to databases and SQL that helpfully contrasts SQL queries with Pandas syntax.
+* [SQLZOO](http://sqlzoo.net/wiki/SQL_Tutorial), [Mode Analytics](http://sqlschool.modeanalytics.com/), and [Code School](http://campus.codeschool.com/courses/try-sql/contents) all have online beginner SQL tutorials that look promising. Code School also offers an [advanced tutorial](https://www.codeschool.com/courses/the-sequel-to-sql/), though it's not free.
+* [w3schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) has a sample database that allows you to practice SQL.
+* [What Every Data Scientist Needs to Know about SQL](http://joshualande.com/data-science-sql/) is a brief series of posts about SQL basics, and [Introduction to SQL for Data Scientists](http://bensresearch.com/downloads/SQL.pdf) is a paper with similar goals.
+* [10 Easy Steps to a Complete Understanding of SQL](http://tech.pro/tutorial/1555/10-easy-steps-to-a-complete-understanding-of-sql) is a good article for those who have some SQL experience and want to understand it at a deeper level.
+* SQLite's article on [Query Planning](http://www.sqlite.org/queryplanner.html) explains how SQL queries "work".
+* [A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems) gives the pros and cons of SQLite, MySQL, and PostgreSQL.
+* If you want to go deeper into databases and SQL, Stanford has a well-respected series of [14 mini-courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about).
+* [Blaze](http://blaze.pydata.org/en/latest/) is a Python package enabling you to use Pandas-like syntax to query data living in a variety of data storage systems.
+
+### Tidy Data
+* [Good Data Management Practices for Data Analysis](https://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/) briefly summarizes the principles of "tidy data".
+* [Hadley Wickham's paper](http://www.jstatsoft.org/v59/i10/paper) explains tidy data in detail and includes lots of good examples.
+* Example of a tidy dataset: [Bob Ross](https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv)
+* Examples of untidy datasets: [NFL ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/2014-average-ticket-price.csv), [airline safety](https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv), [Jets ticket prices](https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/jets-buyer.csv), [Chipotle orders](https://github.com/TheUpshot/chipotle/blob/master/orders.tsv)
+* If your co-workers tend to create spreadsheets that are [unreadable by computers](https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/), they may benefit from reading these [tips for releasing data in spreadsheets](http://www.clean-sheet.org/). (There are some additional suggestions in this [answer](http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711) from Cross Validated.)
+
+### Regular Expressions ("Regex")
+* Google's Python Class includes an excellent [introductory lesson](https://developers.google.com/edu/python/regular-expressions) on regular expressions (which also has an associated [video](https://www.youtube.com/watch?v=kWyoYtvJpe4&index=4&list=PL5-da3qGB5IA5NwDxcEJ5dvt8F9OQP7q5)).
+* Python for Informatics has a nice [chapter](http://www.pythonlearn.com/html-270/book012.html) on regular expressions. (If you want to run the examples, you'll need to download [mbox.txt](http://www.py4inf.com/code/mbox.txt) and [mbox-short.txt](http://www.py4inf.com/code/mbox-short.txt).)
+* I wrote a [reference guide](https://github.com/justmarkham/DAT5/blob/master/code/19_regex_reference.py) to regular expressions that includes lots of short explanations and simple examples.
+* [regex101](https://regex101.com/#python) is an online tool for testing your regular expressions in real time.
+* If you want to go really deep with regular expressions, [RexEgg](http://www.rexegg.com/) includes endless articles and tutorials.
+* [Exploring Expressions of Emotions in GitHub Commit Messages](http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/) is a fun example of how regular expressions can be used for data analysis, and [Emojineering](http://instagram-engineering.tumblr.com/post/118304328152/emojineering-part-2-implementing-hashtag-emoji) explains how Instagram uses regular expressions to detect emoji in hashtags.
