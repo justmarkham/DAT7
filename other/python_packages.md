@@ -13,6 +13,7 @@ Note: Some of these packages have dependencies that will also need to be install
 * pip
 * requests
 * scikit-learn
+* scipy
 * statsmodels
 
 ### Available for installation via `conda`
@@ -20,4 +21,3 @@ Note: Some of these packages have dependencies that will also need to be install
 
 ### Available for installation via `pip`
 * textblob
-* tweepy

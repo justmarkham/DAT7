@@ -5,7 +5,7 @@
 * **June 22:** Discuss project ideas with instructional team
     * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
     * [Public data sources](public_data.md)
-    * [Kaggle competitions](http://www.kaggle.com/)
+    * Data science competitions: [Kaggle](http://www.kaggle.com/), [DrivenData](http://www.drivendata.org/competitions/), [CrowdANALYTIX](https://www.crowdanalytix.com/community), [TunedIT](http://tunedit.org/challenges), [InnoCentive](https://www.innocentive.com/ar/challenge/browse)
 * **June 24:** Project question and dataset
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md) by Jason Knobloch
     * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jennifer/project_description.md) by Jennifer Lambert
@@ -26,7 +26,7 @@ The final project should represent significant original work applying data scien
 
 Address a data-related problem in your professional field or a field you're passionate about. If you have a strong interest in the subject matter, you'll create a better project and it will be a lot more fun for you!
 
-Here's a collection of [past projects](https://github.com/justmarkham/DAT-project-examples) from GA Data Science students that may help to stimulate your thinking. You're welcome to use [public data](public_data.md) or private data, though with private data, you'll have to be careful about what you release. Competing in a [Kaggle competition](http://www.kaggle.com/) is also a project option, in which case the data will be provided for you.
+Here's a collection of [past projects](https://github.com/justmarkham/DAT-project-examples) from GA Data Science students that may help to stimulate your thinking. You're welcome to use [public data](public_data.md) or private data, though with private data, you'll have to be careful about what you release. Competing in a [Kaggle competition](http://www.kaggle.com/) (including past competitions) is also a project option, in which case the data will be provided for you.
 
 ## Milestones
 
