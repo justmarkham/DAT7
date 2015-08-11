@@ -51,7 +51,7 @@ Monday | Wednesday
 
 ### [What's next?](other/advice.md)
 
-### [Bonus Resources](#bonus-resources)
+### [Additional resources](#bonus-resources)
 
 -----
 
@@ -501,10 +501,7 @@ Monday | Wednesday
 
 ### Classes 21 and 22: Final Project Presentation
 * Project presentations!
-
------
-
-### [What's next?](other/advice.md)
+* [What's next?](other/advice.md)
 
 -----
 

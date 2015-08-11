@@ -1,6 +1,6 @@
 ## What's Next?
 
-My best advice for **getting better at data science** is this: Find "the thing" that motivates you to practice what you learned and to learn more, and then do that thing. That could be personal data science projects, Kaggle competitions, online courses, reading books, reading blogs, attending meetups or conferences, or something else.
+Here is my best advice for **getting better at data science**: Find "the thing" that motivates you to practice what you learned and to learn more, and then do that thing. That could be personal data science projects, Kaggle competitions, online courses, reading books, reading blogs, attending meetups or conferences, or something else.
 
 If you create your own **data science projects**, I'd encourage you to share them on GitHub and include writeups. That will help to show others that you know how to do [proper data science](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/).
 
